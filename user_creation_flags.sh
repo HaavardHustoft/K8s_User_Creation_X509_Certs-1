@@ -114,6 +114,9 @@ if [ -z "${days}" ] ; then
 	days=360
 fi
 
+#Set up home folder
+mkdir -p /home/$user
+
 #Set up variables
 user_home="/home/$user"
 filename=$user_home/$user
